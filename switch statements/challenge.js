@@ -14,7 +14,18 @@ function selectltem(item) {
     case "coffee":
       price = 2;
       break;
+    case "Sandwiches":
+      price = 5;
+      break;
+    case "Salad":
+      price = 4;
+      break;
+    case "Lemon Cake":
+      price = 3;
+      break;
+    default:
+      return `Sorry, we don't sell ${item}`;
   }
   return `You selected ${item}. That wilt be $${price}`;
 }
-console.log(selectltem(biscuits));
+console.log(selectltem("Salad"));
