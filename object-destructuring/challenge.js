@@ -31,6 +31,7 @@ const { city: myCity, country: myCountry } = dreamDestination;
 console.log(`I have dream of visiting ${myCity} in ${myCountry}`);
 
 // Case 3: Default Values
+// if value is not present then default will be set
 const studentData = {
   name: "Ali",
   rollNo: 42,
