@@ -6,6 +6,11 @@ function displayTrafficLight(light) {
 setTimeout(displayTrafficLight, 3000, "🟢");
 displayTrafficLight("🔴");
 
+// Challenge:
+// 1. After a 3 second delay, call the logAnswer' function.
+// 2. Make sure 'logAnswer' has all the info it needs.
+// The answer is Lima and it's 10 points for getting it right.
+  
 // Challenge #1
 function logAnswer(capital, points) {
   console.log(
