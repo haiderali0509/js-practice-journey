@@ -1,0 +1,13 @@
+types
+inbuilt
+    Date
+    getFullYear
+    Error
+        throw keywords block next execution
+    Data type constructor - they are object type and have methods,properties
+        String()
+        Number()
+        Array()
+        Object()
+        Boolean()
+custom

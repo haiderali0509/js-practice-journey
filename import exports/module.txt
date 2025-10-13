@@ -1,0 +1,21 @@
+types of modules
+
+common js
+    require
+    module.exports = add
+    require add from "./data.js"
+    
+    module.exports = {add}
+    require {add} from "./data.js"
+es module
+    import export
+
+    Named Export
+        export const add
+        need {} for imports
+        can rename by as keyword
+    Default exports
+        export default const add
+        one from one file
+        no {} for import
+        can rename

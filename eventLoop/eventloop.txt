@@ -1,0 +1,19 @@
+js - v8 engine
+
+the heap - handles memory allocation so we dont have to 
+
+the callstack - where code executes - it is single threaded so run a piece of code at a time
+
+the browser - web api, event loop, task queue
+web apis
+    settimeout
+    setinterval
+    dom
+    data request
+fetch
+promise
+
+event loop checks callstack to when its empty so that i give task to do - it checks when there is task come in queue 
+
+tasks queue - has tasks in queue
+web api - ye timer lagata ya baqi sab
