@@ -1,0 +1,12 @@
+traditional way:
+
+use fetch and .then 
+
+methods
+- GET
+- POST
+- PUT
+- DELETE
+
+body
+header

@@ -1,0 +1,8 @@
+promises has three states
+- pending
+- resolved
+- rejected
+
+we use await to use promises
+
+try catch is used for error handling

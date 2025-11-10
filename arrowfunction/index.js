@@ -38,12 +38,12 @@
 // );
 // console.log(distanceTraveledKM);
 
+// Challenge #3
 // import { itemsBoughtArr } from "./itemsArray.js";
 // function calculateTotalCost(itemsArr) {
 //   const totalCost = itemsArr.reduce((total, item) => total + item.priceUSD, 0);
 //   return totalCost;
 // }
-// Challenge #3
 // 1. use the reduce method to calculate the total cost of items which have been bought.
 
 // console.log(calculateTotalCost(itemsBoughtArr));

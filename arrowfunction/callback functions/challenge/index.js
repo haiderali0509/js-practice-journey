@@ -20,11 +20,11 @@
 // .reduce()
 // Function parameters
 import { propertyForSaleArr } from "./propertyForSaleArr.js";
+import placeholderProperty from "./placeholderProperty.js";
 
 let container = document.querySelector(".container");
 
-// console.log((properties = propertyForSaleArr));
-export function getPropertyHtml(properties = propertyForSaleArr) {
+export function getPropertyHtml(properties = [placeholderProperty]) {
   return properties
     .map(
       ({ img, price, location, comment, roomSizes }) => `
