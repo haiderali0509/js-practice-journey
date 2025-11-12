@@ -1,0 +1,9 @@
+API has methods
+
+GET
+POST
+DELETE
+PUT
+
+Header
+    
